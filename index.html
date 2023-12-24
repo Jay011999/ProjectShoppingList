@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shopping List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="page-top">
+                <h1>User Shopping List</h1>
+                <p>Shopping List</p>
+                <form id="search-item">
+                    <input type="text" placeholder="Search Items ..."/>
+                    <div id="check">
+                        <label for="">Hide List</label>
+                        <input type="checkbox" name="Hide" id="hide" />
+                    </div>
+                </form>
+            </div>
+        </header>
+
+        <form id="add-item">
+            <input type="text" placeholder="What do you want to buy?">
+            <button>Add</button>
+        </form>
+
+        <div id="grocery-list">
+            <h2>Items to Buy</h2>
+            <ul>
+                <li>
+                    <span class="item">Milk</span>
+                    <span class="delete">Delete</span>
+                </li>
+                <li>
+                    <span class="item">Sugar</span>
+                    <span class="delete">Delete</span>
+                </li>
+                <li>
+                    <span class="item">Pizza</span>
+                    <span class="delete">Delete</span>
+                </li>
+            </ul>
+            
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
